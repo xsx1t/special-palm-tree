@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom MP4 Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="player">
+  <video id="video" src="sample.mp4"></video>
+
+  <div class="controls">
+    <button id="playPause">▶️</button>
+    <input type="range" id="progress" value="0" min="0" max="100">
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+    <button id="fullscreen">⛶</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
